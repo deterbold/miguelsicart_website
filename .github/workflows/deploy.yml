@@ -33,6 +33,7 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         local-dir: ./public/
         server-dir: ./httpd.www/
+        
         timeout: 600000
         exclude: |
           **/.git*
